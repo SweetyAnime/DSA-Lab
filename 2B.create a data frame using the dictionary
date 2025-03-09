@@ -1,0 +1,27 @@
+DATAFRAME:
+To create Data Frame from dictionary of n array/list, all the n array must be of same length. If index is passed then the length index should be equal to the length of arrays. If no index is passed, then by default, index will be range(n) where n is the array length.
+
+AIM:
+Write a program to create a data frame using dictionary of elements.
+
+ALGORITHM:
+Step1: Start
+Step2: Import numpy and pandas module 
+Step3:Create a data frame using the dictionary 
+Step4: Print the output
+Step5:Stop
+
+PROGRAM:
+import pandas as pd
+data={'Name':['Tom','nick','krish','jack'], 'Age':[20, 21, 19, 18]}
+df=pd.DataFrame(data) # Print the output. print(df)
+
+OUTPUT:
+Name Age
+Tom   20
+nick	21
+krish	19
+jack	18
+
+RESULT:
+Thus the python to create data frame using dictionary program has been implemented and executed successfully.
