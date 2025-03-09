@@ -1,0 +1,39 @@
+AIM:
+Write a python program for basic plot using matplotlib
+
+ALGORITHM:
+Step 1:import the library
+Step 2:Plot the points using matplotlib
+Step 3: Display the output
+Step 4:Stop
+
+PROGRAM:
+1. Lineplot:
+From matplotlib import pyplot as plt 
+x = [5, 2, 9, 4, 7]
+y=[10, 5, 8, 4,2]
+plt.plot(x,y) 
+plt.show()
+
+2.Bar plot:
+From matplotlib import pyplot as plt 
+x = [5, 2, 9, 4, 7]
+y=[10, 5, 8, 4,2]
+plt.bar(x,y) 
+plt.show()
+
+3. Histogram:
+From matplotlib import pyplot as plt 
+y = [10, 5, 8, 4, 2]
+plt.hist(y) 
+plt.show()
+
+4.Scatter Plot:
+From matplotlib import pyplot as plt 
+x = [5, 2, 9, 4, 7]
+y=[10, 5, 8, 4,2]
+plt.scatter(x,y) 
+plt.show()
+
+RESULT:
+Thus the python program for basic plot using Matplotlib has been implemented and executed successfully.
