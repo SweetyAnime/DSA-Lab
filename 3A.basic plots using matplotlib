@@ -1,0 +1,25 @@
+MATPLOTLIB:
+It is a Python library that helps in visualizing and analyzing the data and helps in better understanding of the data with the help of graphical, pictorial visualizations that can be simulated using the matplotlib library. Matplotlib is a comprehensive library for static, animated and interactive visualizations.
+
+AIM:
+Write a python program to create a simple plot using plot()function.
+
+ALGORITHM:
+Step1:Define the x-axis and corresponding y-axis values as lists. 
+Step2:Plot them on canvas using .plot() function.
+Step3:Give a name to x-axis and y-axis using .xlabel() and .ylabel() functions. 
+Step4:Give a title to your plot using .title() function.
+Step5:Finally, to view your plot, we use .show() function. Step6: Stop
+
+PROGRAM:
+import matplotlib.pyplot as plt
+x=[1,2,3]
+y=[2,4,1]
+plt.plot(x, y)
+plt.xlabel('x - axis') 
+plt.ylabel('y - axis')
+plt.title('My first graph!')
+plt.show()
+
+RESULT:
+Thus the python program for basic Matplotlib has been implemented and executed successfully
