@@ -14,7 +14,8 @@ Step5:Stop
 PROGRAM:
 import pandas as pd
 data={'Name':['Tom','nick','krish','jack'], 'Age':[20, 21, 19, 18]}
-df=pd.DataFrame(data) # Print the output. print(df)
+df=pd.DataFrame(data)  
+print(df)
 
 OUTPUT:
 Name Age
