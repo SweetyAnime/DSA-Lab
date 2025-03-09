@@ -1,0 +1,34 @@
+NUMPY:
+NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, Fourier transform, and matrices. NumPy was created in 2005 by Travis Oliphant. It is an open source project and you can use it freely. NumPy stands for Numerical Python.
+It is a general-purpose array-processing package. It provides a high-performance multidimensional array object, and tools for working with these arrays.
+It is the fundamental package for scientific computing with Python. It contains various features including these important ones:
+A powerful N-dimensional array object.
+Sophisticated(broadcasting) functions.
+Tools for integrating C/C++ and Fortran code.
+Useful linear algebra, Fourier transform, and random number capabilities.
+
+AIM:
+Write a Python program to demonstrate basic array characteristics.
+
+ALGORITHM:
+Step1: Start
+Step2: Import numpy module
+Step3: Print the basic characteristics of array Step4: Stop
+
+PROGRAM:
+import numpy as np 
+Arr =np.array([[1,2,3],[4,2,5]])
+print("Array is of type:",type(arr))
+print("No.of dimensions:",arr.ndim) 
+print("Shape of array: ", arr.shape)
+print("Size of array: ", arr.size)
+print("Array stores elements of type: ",arr.dtype)
+
+OUTPUT:
+Array is of type: <class 'numpy.ndarray'> 
+No. of dimensions: 2
+Shape of array: (2,3) Size of array:6
+Array stores elements of type: int32
+
+RESULT:
+Thus the python program working with NumPy array has been implemented and executed successfully.
